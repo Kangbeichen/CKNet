@@ -1,0 +1,20 @@
+python main.py \
+    --image_dir /home/jiaxing/data/iu_xray/images/ \
+    --ann_path /home/jiaxing/data/iu_xray/annotation.json \
+    --dataset_name iu_xray \
+    --max_seq_length 60 \
+    --threshold 3 \
+    --epochs 30 \
+    --n_gpu 1 \
+    --batch_size 16 \
+    --lr_ve 1e-3 \
+    --lr_ed 5e-4 \
+    --step_size 50 \
+    --gamma 0.8 \
+    --num_layers 3 \
+    --topk 15 \
+    --cmm_dim 512 \
+    --seed 9223 \
+    --beam_size 3 \
+    --save_dir results/iu_xray/ \
+    --log_period 50
