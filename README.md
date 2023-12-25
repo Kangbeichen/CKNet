@@ -1,7 +1,6 @@
-# CKNet
+论文题目：
 
-This is the implementation of [Bridging the Gap: Cross-modal Knowledge Driven
-Network for Radiology Report Generation]() at BIBM-2023.
+多模态疾病诊断及报告生成方法的研究与实现
 
 
 
